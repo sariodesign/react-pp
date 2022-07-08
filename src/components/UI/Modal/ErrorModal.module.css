@@ -1,0 +1,31 @@
+.modal {
+  left: 50%;
+  margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30vh;
+  min-width: 300px;
+}
+
+.backdrop {
+  background-color: rgba(0,0,0,.75);
+  left: 0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  background-color: red;
+  color: #fff;
+}
+
+.content {
+  color: red
+}
+
+.footer {
+
+}
